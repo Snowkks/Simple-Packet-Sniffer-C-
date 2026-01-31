@@ -11,6 +11,9 @@ It uses Linux Raw Socket to capture and parse network frames at the Data Link la
     * **ICMP:** Ping requests/replies.
 * **Zero Dependencies:** Built using only standard Linux system libraries (`<netinet/*.h>`).
 
+## Example Output
+![Description of Image](demo.png)
+
 ## How to Build & Run
 
 ### 1. Compile
