@@ -7,7 +7,7 @@ It uses Linux Raw Socket to capture and parse network frames at the Data Link la
 * **Low-Level Access:** Captures raw binary data directly from the network driver.
 * **Protocol Analysis:** Manually parses headers for:
     * **IP:** Source/Dest IP Addresses.
-    * **TCP/UDP:** Source/Dest Ports.
+    * **TCP/UDP:** Dest Ports.
     * **ICMP:** Ping requests/replies.
 * **Zero Dependencies:** Built using only standard Linux system libraries (`<netinet/*.h>`).
 
